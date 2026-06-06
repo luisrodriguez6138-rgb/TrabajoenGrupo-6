@@ -7,10 +7,11 @@ package ejerciciosgrupo6;
 import java.util.Scanner;
 
 public class EjerciciosGrupo6 {
-
+    
+    static Scanner sc = new Scanner(System.in);
     
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+  
         System.out.println("=========Trabajo Grupo 6=========");
         System.out.println("        Menu de opciones");
         System.out.println("=================================");
@@ -52,10 +53,12 @@ public class EjerciciosGrupo6 {
         }
     }
     public static void sistemaLogin(){
-        string contraseñaCorrecta = "admin123";
-        string contraseña;
+        String contraseñaCorrecta = "admin123";
+        String contraseña;
         int intentos = 0;
         
+        System.out.println("Ingrese la contraseña: ");
+        contraseña = sc.next();
         
     }
     public static void numerosPositivos(){
