@@ -75,27 +75,38 @@ public class EjerciciosGrupo6 {
         }
        
     public static void numerosPositivos(){
+        
         int numero;
         int cantidad = 0;
         int suma = 0;
         double promedio;
         
         do{
-           System.out.println("Ingrese un numero: ");
-           numero = sc.nextByte();
+            
+           System.out.println("Ingrese un numero positivo (negativo para terminar): ");
+           numero = sc.nextInt();
+           
+           if(numero >=0){
+               suma += numero;
+               cantidad++;
+           }
            
         }while(numero >=0);
         
-        if(numero >= 0){
-            suma += numero;
-            cantidad++;
-        }
-        promedio = (double) suma / cantidad;
+        if(cantidad > 0){
+           
+            promedio = (double) suma / cantidad;
         
-        System.out.println("Cantidad de numeros: " + cantidad);
-        System.out.println("Suma total: " + suma);
-        System.out.println("Promedio: " + promedio);
+           System.out.println("Cantidad de numeros: " + cantidad);
+           System.out.println("Suma total: " + suma);
+           System.out.println("Promedio: " + promedio);
+           
+        }else{
+            System.out.println("No se ingresaron numeros positivos"); 
+        }
     }
+    
+
     public static void notaCeroDiez(){
         
     }
