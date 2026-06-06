@@ -274,6 +274,9 @@ public class EjerciciosGrupo6 {
             if(num > mayor) {
             mayor = num;
             }
+            if(num < menor) {
+            menor = num;
+            }
         }
         
         
