@@ -294,6 +294,11 @@ public class EjerciciosGrupo6 {
     positivos++;
 
 }
+        else if (numero < 0) {
+
+    negativos++;
+
+}
 
 }
     
