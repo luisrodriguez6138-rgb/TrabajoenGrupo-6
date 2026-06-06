@@ -60,6 +60,8 @@ public class EjerciciosGrupo6 {
         System.out.println("Ingrese la contraseña: ");
         contraseña = sc.next();
         
+        intentos ++;
+        
     }
     public static void numerosPositivos(){
         
