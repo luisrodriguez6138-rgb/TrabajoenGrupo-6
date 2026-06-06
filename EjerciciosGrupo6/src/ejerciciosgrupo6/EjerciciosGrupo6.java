@@ -221,7 +221,9 @@ public class EjerciciosGrupo6 {
         do {
             System.out.print("Numero: ");
             numero = sc.nextInt();
-            
+            if (numero >= 0) {
+                System.out.println("Numero registrado: " + numero);
+            }
         } while (numero >= 0);
 
         
