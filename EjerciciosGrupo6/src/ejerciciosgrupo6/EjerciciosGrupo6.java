@@ -108,6 +108,7 @@ public class EjerciciosGrupo6 {
     
 
     public static void notaCeroDiez(){
+        int nota;
         
     }
 } 
