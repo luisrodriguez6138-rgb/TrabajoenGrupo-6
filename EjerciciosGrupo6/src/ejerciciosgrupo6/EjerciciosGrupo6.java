@@ -252,6 +252,7 @@ public class EjerciciosGrupo6 {
         int sn;
         System.out.println("Serie Fibonacci: ");
         for(int i=1;i<=n;i++) {
+            System.out.print(a + " ");
         }
     }
  //aqui pueden igual seguir agregando las funciones
