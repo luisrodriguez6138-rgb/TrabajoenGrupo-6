@@ -250,6 +250,7 @@ public class EjerciciosGrupo6 {
         int a = 0;
         int b = 1;
         int sn;
+        System.out.println("Serie Fibonacci: ");
     }
  //aqui pueden igual seguir agregando las funciones
     
