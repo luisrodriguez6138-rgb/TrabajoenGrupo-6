@@ -91,6 +91,10 @@ public class EjerciciosGrupo6 {
             cantidad++;
         }
         promedio = (double) suma / cantidad;
+        
+        System.out.println("Cantidad de numeros: " + cantidad);
+        System.out.println("Suma total: " + suma);
+        System.out.println("Promedio: " + promedio);
     }
     public static void notaCeroDiez(){
         
