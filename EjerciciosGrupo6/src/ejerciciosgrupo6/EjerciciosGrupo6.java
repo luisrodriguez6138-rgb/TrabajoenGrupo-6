@@ -268,6 +268,9 @@ public class EjerciciosGrupo6 {
         num = sc.nextInt();
         int mayor = num;
         int menor = num;
+        for(int i = 2; i <= 10; i++) {
+            
+        }
         
     }
     
