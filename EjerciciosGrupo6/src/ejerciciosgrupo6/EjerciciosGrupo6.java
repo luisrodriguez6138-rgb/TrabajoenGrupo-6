@@ -4,17 +4,15 @@
  */
 package ejerciciosgrupo6;
 
-/**
- *
- * @author HP
- */
+import java.util.Scanner;
+
 public class EjerciciosGrupo6 {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        
+        
     }
     
 }
