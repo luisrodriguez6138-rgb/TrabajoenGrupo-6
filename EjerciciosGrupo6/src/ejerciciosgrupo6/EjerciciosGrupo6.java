@@ -266,6 +266,7 @@ public class EjerciciosGrupo6 {
     public static void factorialnumero() {
         System.out.println("FACTORIAL DE UN NUMERO");
         System.out.print("Ingrese un numero: ");
+        int numero = sc.nextInt();
 
 }
     
