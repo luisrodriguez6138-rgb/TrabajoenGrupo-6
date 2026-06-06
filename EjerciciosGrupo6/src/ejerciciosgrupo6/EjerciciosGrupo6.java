@@ -110,5 +110,11 @@ public class EjerciciosGrupo6 {
     public static void notaCeroDiez(){
         int nota;
         
+        do{
+        
+        }while(nota < 0 || nota > 10);
+        
+        }
+        
     }
 } 
