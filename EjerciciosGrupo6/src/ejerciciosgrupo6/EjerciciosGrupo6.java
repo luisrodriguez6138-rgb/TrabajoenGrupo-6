@@ -197,7 +197,13 @@ public class EjerciciosGrupo6 {
         System.out.print("Ingrese las ventas (0 para terminar): ");
         do {
             System.out.print("Venta: $");
-            
+            venta = sc.nextDouble();
+            if (venta > 0) {
+                totalVentas += venta;
+                cantidad++;
+            } else if (venta < 0) {
+                System.out.println("Valor invalido, ingrese un valor positivo o 0 para terminar.");
+            }
         } while (venta != 0);
 
 
