@@ -268,6 +268,9 @@ public class EjerciciosGrupo6 {
         System.out.print("Ingrese un numero: ");
         int numero = sc.nextInt();
         int factorial = 1;
+        for (int i = 1; i <= numero; i++) {
+
+}
 
 }
     
