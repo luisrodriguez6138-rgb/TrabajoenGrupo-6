@@ -225,8 +225,7 @@ public class EjerciciosGrupo6 {
                 System.out.println("Numero registrado: " + numero);
             }
         } while (numero >= 0);
-
-        
+        System.out.println("Se ingreso un numero negativo. PROGRAMA TERMINADO.");
     }
  //aqui pueden igual seguir agregando las funciones  
 } 
