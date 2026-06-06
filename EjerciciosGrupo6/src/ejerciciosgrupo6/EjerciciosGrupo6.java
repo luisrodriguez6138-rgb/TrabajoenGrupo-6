@@ -263,6 +263,7 @@ public class EjerciciosGrupo6 {
     //--------------------------------------
     public static void mayorymenorde10numeros(){
         System.out.println("MAYOR Y MENOR DE 10 NUMEROS");
+        int num;
     }
     
  //aqui pueden igual seguir agregando las funciones
