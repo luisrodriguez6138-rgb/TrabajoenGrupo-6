@@ -50,11 +50,14 @@ public class EjerciciosGrupo6 {
                 System.out.println("Ingrese una opcion valida");
             
         }
-        
-        
-
-        
+    }
+    public static void sistemaLogin(){
         
     }
-    
+    public static void numerosPositivos(){
+        
+    }
+    public static void notaCeroDiez(){
+        
+    }
 }
