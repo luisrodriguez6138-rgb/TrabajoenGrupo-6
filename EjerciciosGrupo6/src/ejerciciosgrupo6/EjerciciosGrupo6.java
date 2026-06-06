@@ -58,16 +58,19 @@ public class EjerciciosGrupo6 {
                     break;
                 case 7:
                     numeronegativo();
+                    //aqui le sigues agregando los cases que faltan Adrian
                     break;
                 case 12:
                     secuenciadefibonacci();
+                    break;
                 case 13:
                     mayorymenorde10numeros();
+                    break;
                 case 14:
                     sumadenumerosparesentre1y200();
                 case 15:
                     numeroprimo();
-                    //ahi le siguen agregando los cases para los ejercicios que faltan
+                    break;
                 case 16:
                     System.out.println("Saliendo del sistema...");
                     break;
@@ -313,7 +316,4 @@ public class EjerciciosGrupo6 {
             System.out.println("numero no primo");
         }
     }
-    
- //aqui pueden igual seguir agregando las funciones
-    
 } 
