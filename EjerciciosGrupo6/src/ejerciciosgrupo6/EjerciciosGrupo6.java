@@ -11,58 +11,59 @@ public class EjerciciosGrupo6 {
     static Scanner sc = new Scanner(System.in);
     
     public static void main(String[] args) {
-  
-        System.out.println("=========Trabajo Grupo 6=========");
-        System.out.println("        Menu de opciones");
-        System.out.println("=================================");
-        System.out.println("1.Validacion de contraseña");
-        System.out.println("2.Registro de numeros positivos");
-        System.out.println("3.Validacion de nota");
-        System.out.println("4.Acceso a cajero automatico");
-        System.out.println("5.Conteo de numeros pares e impares");
-        System.out.println("6.Registro de ventas diarias");
-        System.out.println("7.Ingreso hasta numero positivo");
-        System.out.println("8.Tabla de multiplicar");
-        System.out.println("9.Calculo de factorial");
-        System.out.println("10.Conteo de positivos,negativos y ceros");
-        System.out.println("11.Promedio de calificaciones");
-        System.out.println("12.Serie de Fibonacci");
-        System.out.println("13.Numero mayor y menor");
-        System.out.println("14.Suma de numeros pares");
-        System.out.println("15.Verificacion de numero primo");
-        System.out.println("16.Salir");
-       
-        System.out.println("Seleccione una opcion: ");
-        int opc = sc.nextInt();
-        
-        switch(opc){
-            
-            case 1:
-                sistemaLogin();
-                break;
-            case 2:
-                numerosPositivos();
-                break;
-            case 3:
-                notaCeroDiez();
-                break;
-            case 4:
-                break;
-            case 5:
-                break;
-            case 6:
-                break;
-            case 7:
-                break;
-                
-                //ahi le siguen agregando los cases para los ejercicios que faltan
-            case 16:
-                System.out.println("Saliendo del sistema...");
-                break;
-            default:
-                System.out.println("Vuelva a ejecutar el programa e Ingrese una opcion valida del 1-16");
-            
-        }
+        int opc;
+        do{
+            System.out.println("=========Trabajo Grupo 6=========");
+            System.out.println("        Menu de opciones");
+            System.out.println("=================================");
+            System.out.println("1.Validacion de contraseña");
+            System.out.println("2.Registro de numeros positivos");
+            System.out.println("3.Validacion de nota");
+            System.out.println("4.Acceso a cajero automatico");
+            System.out.println("5.Conteo de numeros pares e impares");
+            System.out.println("6.Registro de ventas diarias");
+            System.out.println("7.Ingreso hasta numero positivo");
+            System.out.println("8.Tabla de multiplicar");
+            System.out.println("9.Calculo de factorial");
+            System.out.println("10.Conteo de positivos,negativos y ceros");
+            System.out.println("11.Promedio de calificaciones");
+            System.out.println("12.Serie de Fibonacci");
+            System.out.println("13.Numero mayor y menor");
+            System.out.println("14.Suma de numeros pares");
+            System.out.println("15.Verificacion de numero primo");
+            System.out.println("16.Salir");
+
+            System.out.println("Seleccione una opcion: ");
+            opc = sc.nextInt();
+
+            switch(opc){
+
+                case 1:
+                    sistemaLogin();
+                    break;
+                case 2:
+                    numerosPositivos();
+                    break;
+                case 3:
+                    notaCeroDiez();
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    break;
+                case 6:
+                    break;
+                case 7:
+                    break;
+
+                    //ahi le siguen agregando los cases para los ejercicios que faltan
+                case 16:
+                    System.out.println("Saliendo del sistema...");
+                    break;
+                default:
+                    System.out.println("\nOpcion invalida. Intente de nuevo...");   
+            }
+        }while (opc != 0);
     }
     public static void sistemaLogin(){
         String contraseñaCorrecta = "admin123";
