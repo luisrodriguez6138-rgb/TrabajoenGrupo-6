@@ -271,8 +271,15 @@ public class EjerciciosGrupo6 {
         for (int i = 1; i <= numero; i++) {
 
 }
+        int i = 0;
         factorial = factorial * i;
         System.out.println("El factorial es: " + factorial);
+
+}
+    //------------------------------------------------------------------
+    //EJERCICIO 10:Contador de positivos negativos y ceros
+    //------------------------------------------------------------------
+    public static void contadornumeros() {
 
 }
     
