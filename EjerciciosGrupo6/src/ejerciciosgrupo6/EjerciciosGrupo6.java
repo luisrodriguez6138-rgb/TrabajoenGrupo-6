@@ -256,6 +256,7 @@ public class EjerciciosGrupo6 {
 }
         int resultado = numero * i;
         System.out.println(numero + " x " + i + " = " + resultado);
+        System.out.println("Proceso finalizado");
         
 
 }
