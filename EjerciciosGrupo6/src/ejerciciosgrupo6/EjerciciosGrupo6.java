@@ -248,6 +248,7 @@ public class EjerciciosGrupo6 {
     //EJERCICIO 8:Generador de Tabla de Multiplicar del 1 hasta el 20
     //------------------------------------------------------------------
     public static void tablamultiplicar() {
+        System.out.println("TABLA DE MULTIPLICAR");
 
 }
     
