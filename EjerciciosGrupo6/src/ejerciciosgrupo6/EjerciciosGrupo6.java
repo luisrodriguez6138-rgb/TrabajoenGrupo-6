@@ -186,5 +186,11 @@ public class EjerciciosGrupo6 {
         System.out.println("Cantidad de numeros pares: " + pares);
         System.out.println("Cantidad de numeros impares: " + impares);
     }
+    //-------------------------------------------
+    //EJERCICIO 6: VENTAS DIARIAS DE UNA TIENDA.
+    //-------------------------------------------
+    public static void ventasdiarias(){
+        
+    }
  //aqui pueden igual seguir agregando las funciones  
 } 
