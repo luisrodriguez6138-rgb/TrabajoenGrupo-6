@@ -46,6 +46,15 @@ public class EjerciciosGrupo6 {
             case 3:
                 notaCeroDiez();
                 break;
+            case 4:
+                break;
+            case 5:
+                break;
+            case 6:
+                break;
+            case 7:
+                break;
+                
                 //ahi le siguen agregando los cases para los ejercicios que faltan
             case 16:
                 System.out.println("Saliendo del sistema...");
