@@ -69,6 +69,9 @@ public class EjerciciosGrupo6 {
             }
         }while (opc != 16);
     }
+    //--------------------------------------
+    //EJERCICIO 1: SOLICITUD DE CONTRASEÑA.
+    //--------------------------------------
     public static void sistemaLogin(){
         String contraseñaCorrecta = "admin123";
         String contraseña;
@@ -90,7 +93,9 @@ public class EjerciciosGrupo6 {
             System.out.println("Acceso permitido");
             System.out.println("Intentos realizados " + intentos);
         }
-       
+    //---------------------------------------
+    //EJERCICIO 2: CANTIDAD, SUMA Y PROMEDIO.
+    //--------------------------------------- 
     public static void numerosPositivos(){
         
         int numero;
@@ -122,8 +127,9 @@ public class EjerciciosGrupo6 {
             System.out.println("No se ingresaron numeros positivos"); 
         }
     }
-    
-    
+    //------------------------------------
+    //EJERCICIO 3: NOTA ENTRE CERO Y DIEZ.
+    //------------------------------------
     public static void notaCeroDiez(){
         
         int nota;
