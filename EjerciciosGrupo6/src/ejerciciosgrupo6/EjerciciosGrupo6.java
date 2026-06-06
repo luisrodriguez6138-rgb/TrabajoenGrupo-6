@@ -114,6 +114,9 @@ public class EjerciciosGrupo6 {
         
         }while(nota < 0 || nota > 10);
         
+        System.out.println("Ingrese una nota entre 0 y 10: ");
+        nota = sc.nextInt();
+        
         }
         
     }
