@@ -304,6 +304,10 @@ public class EjerciciosGrupo6 {
     ceros++;
 
 }
+        System.out.println("Positivos: " + positivos);
+        System.out.println("Negativos: " + negativos);
+        System.out.println("Ceros: " + ceros);
+        
 
 }
     
