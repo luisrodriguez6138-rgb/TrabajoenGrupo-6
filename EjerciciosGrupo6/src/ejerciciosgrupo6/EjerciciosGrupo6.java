@@ -174,8 +174,14 @@ public class EjerciciosGrupo6 {
         System.out.print("Ingrese números enteros (0 para terminar): ");
         do {
             System.out.print("Numero: ");
-            numero = sc.nextInt();  
-        
+            numero = sc.nextInt(); 
+            if (numero != 0) {
+                if (numero % 2 == 0) {
+                    pares++;
+                } else {
+                    impares++;
+                }
+            }
         } while (numero != 0);
 
 
