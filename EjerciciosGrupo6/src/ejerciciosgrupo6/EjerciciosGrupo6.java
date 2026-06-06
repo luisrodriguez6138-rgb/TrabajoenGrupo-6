@@ -65,8 +65,8 @@ public class EjerciciosGrupo6 {
                     mayorymenorde10numeros();
                 case 14:
                     sumadenumerosparesentre1y200();
-//                case 15:
-//                    numeroprimo();
+                case 15:
+                    numeroprimo();
                     //ahi le siguen agregando los cases para los ejercicios que faltan
                 case 16:
                     System.out.println("Saliendo del sistema...");
@@ -293,6 +293,15 @@ public class EjerciciosGrupo6 {
             }
         }
         System.out.println("La suma de los numeros pares: " + suma);
+    }
+    //--------------------------------------
+    //EJERCICIO 15: NUMERO PRIMO.
+    //--------------------------------------
+    public static void numeroprimo(){
+        System.out.println("NUMERO PRIMO");
+        System.out.print("Ingrese un numero entero: ");
+        int numero = sc.nextInt();
+        int divisores = 0;
     }
     
  //aqui pueden igual seguir agregando las funciones
