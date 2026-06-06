@@ -11,7 +11,25 @@ public class EjerciciosGrupo6 {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
+        System.out.println("=========Trabajo Grupo 6=========");
+        System.out.println("        Menu de opciones");
+        System.out.println("=================================");
+        System.out.println("1.Validacion de contraseña");
+        System.out.println("2.Registro de numeros positivos");
+        System.out.println("3.Validacion de nota");
+        System.out.println("4.Acceso a cajero automatico");
+        System.out.println("5.Conteo de numeros pares e impares");
+        System.out.println("6.Registro de ventas diarias");
+        System.out.println("7.Ingreso hasta numero positivo");
+        System.out.println("8.Tabla de multiplicar");
+        System.out.println("9.Calculo de factorial");
+        System.out.println("10.Conteo de positivos,negativos y ceros");
+        System.out.println("11.Promedio de calificaciones");
+        System.out.println("12.Serie de Fibonacci");
+        System.out.println("13.Numero mayor y menor");
+        System.out.println("14.Suma de numeros pares");
+        System.out.println("15.Verificacion de numero primo");
+        System.out.println("16.Salir");
 
         
         
