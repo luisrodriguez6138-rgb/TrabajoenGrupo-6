@@ -66,6 +66,7 @@ public class EjerciciosGrupo6 {
             System.out.println("Acceso permitido");
         }else{
             System.out.println("Contraseña Incorrecta");
+            System.out.println("Intentos realizados " + intentos);
         }
         
     }
