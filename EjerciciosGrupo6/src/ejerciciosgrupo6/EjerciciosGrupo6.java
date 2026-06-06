@@ -59,7 +59,14 @@ public class EjerciciosGrupo6 {
                 case 7:
                     numeronegativo();
                     break;
-
+                case 12:
+                    secuenciadefibonacci();
+                case 13:
+                    mayorymenorde10numeros();
+                case 14:
+                    sumadenumerosparesentre1y200();
+                case 15:
+                    numeroprimo();
                     //ahi le siguen agregando los cases para los ejercicios que faltan
                 case 16:
                     System.out.println("Saliendo del sistema...");
