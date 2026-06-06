@@ -195,6 +195,10 @@ public class EjerciciosGrupo6 {
         int cantidad = 0;
         System.out.println("PROGRAMA PARA INGRESAR VENTAS DIARIAS DE UNA TIENDA");
         System.out.print("Ingrese las ventas (0 para terminar): ");
+        do {
+            System.out.print("Venta: $");
+            
+        } while (venta != 0);
 
 
     }
