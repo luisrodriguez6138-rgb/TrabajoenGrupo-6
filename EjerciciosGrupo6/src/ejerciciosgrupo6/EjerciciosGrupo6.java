@@ -299,6 +299,11 @@ public class EjerciciosGrupo6 {
     negativos++;
 
 }
+        else {
+
+    ceros++;
+
+}
 
 }
     
