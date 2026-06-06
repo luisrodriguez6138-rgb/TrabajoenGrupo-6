@@ -170,6 +170,9 @@ public class EjerciciosGrupo6 {
         int numero;
         int pares = 0;
         int impares = 0;
+        System.out.println("PROGRAMA PARA INGRESAR NUMEROS ENTEROS E INDICAR CUANTOS SON NUMEROS PARES E IMPARES");
+        System.out.print("Ingrese números enteros (0 para terminar): ");
+
 
     }
  //aqui pueden igual seguir agregando las funciones  
