@@ -272,6 +272,7 @@ public class EjerciciosGrupo6 {
 
 }
         factorial = factorial * i;
+        System.out.println("El factorial es: " + factorial);
 
 }
     
