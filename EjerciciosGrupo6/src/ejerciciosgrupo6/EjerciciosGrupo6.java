@@ -86,6 +86,10 @@ public class EjerciciosGrupo6 {
            
         }while(numero >=0);
         
+        if(numero >= 0){
+            suma += numero;
+            cantidad++;
+        }
         
     }
     public static void notaCeroDiez(){
