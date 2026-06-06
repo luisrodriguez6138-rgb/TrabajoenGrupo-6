@@ -80,8 +80,12 @@ public class EjerciciosGrupo6 {
         int suma = 0;
         double promedio;
         
-        System.out.println("Ingrese un numero: ");
-        numero = sc.nextByte();
+        do{
+           System.out.println("Ingrese un numero: ");
+           numero = sc.nextByte();
+           
+        }while(numero >=0);
+        
         
     }
     public static void notaCeroDiez(){
