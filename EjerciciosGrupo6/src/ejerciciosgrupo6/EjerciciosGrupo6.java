@@ -142,6 +142,9 @@ public class EjerciciosGrupo6 {
     public static void cajeroautomatico(){
         String claveCorrecta = "JESUS1727";
         String intento;
+        int intentos = 0;
+        boolean acceso = false;
+        
         
     
 
