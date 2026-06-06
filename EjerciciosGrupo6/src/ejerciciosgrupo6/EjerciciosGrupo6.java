@@ -292,6 +292,7 @@ public class EjerciciosGrupo6 {
             suma = suma + i;
             }
         }
+        System.out.println("La suma de los numeros pares: " + suma);
     }
     
  //aqui pueden igual seguir agregando las funciones
