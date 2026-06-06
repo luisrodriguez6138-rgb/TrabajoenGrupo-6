@@ -242,6 +242,7 @@ public class EjerciciosGrupo6 {
             }
         } while (numero >= 0);
         System.out.println("Se ingreso un numero negativo. PROGRAMA TERMINADO.");
+        //holaaa
     }
     //--------------------------------------
     //EJERCICIO 12: SECUENCIA DE FIBONACCI.
