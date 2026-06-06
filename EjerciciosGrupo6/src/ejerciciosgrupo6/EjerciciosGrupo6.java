@@ -30,6 +30,11 @@ public class EjerciciosGrupo6 {
         System.out.println("14.Suma de numeros pares");
         System.out.println("15.Verificacion de numero primo");
         System.out.println("16.Salir");
+       
+        System.out.println("Seleccione una opcion: ");
+        int opc = sc.nextInt();
+        
+        
 
         
         
