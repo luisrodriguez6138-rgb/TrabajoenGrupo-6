@@ -48,6 +48,7 @@ public class EjerciciosGrupo6 {
                     notaCeroDiez();
                     break;
                 case 4:
+                    cajeroautomatico();
                     break;
                 case 5:
                     break;
@@ -144,6 +145,7 @@ public class EjerciciosGrupo6 {
         String intento;
         int intentos = 0;
         boolean accesoPermitido = false;
+        System.out.println("\n--CAJERO AUTOMÁTICO BANCARIO--");
         while (intentos < 3) {
             System.out.print("Ingrese su clave: ");
             intento = sc.next();
@@ -160,6 +162,12 @@ public class EjerciciosGrupo6 {
         } else {
             System.out.println("ACCESO BLOQUEADO! Demasiados intentos fallidos.");
         } 
+    }
+    //----------------------------------------
+    //EJERCICIO 5: NUMEROS PARES E IMPARES.
+    //----------------------------------------
+    public static void pareseimpares(){
+        
     }
  //aqui pueden igual seguir agregando las funciones  
 } 
