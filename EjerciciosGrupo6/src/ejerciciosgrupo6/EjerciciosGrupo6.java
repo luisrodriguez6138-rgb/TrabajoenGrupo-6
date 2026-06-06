@@ -75,6 +75,11 @@ public class EjerciciosGrupo6 {
         }
        
     public static void numerosPositivos(){
+        int numero;
+        int cantidad = 0;
+        int suma = 0;
+        double promedio;
+        
         
     }
     public static void notaCeroDiez(){
