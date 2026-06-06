@@ -61,8 +61,8 @@ public class EjerciciosGrupo6 {
                     break;
                 case 12:
                     secuenciadefibonacci();
-//                case 13:
-//                    mayorymenorde10numeros();
+                case 13:
+                    mayorymenorde10numeros();
 //                case 14:
 //                    sumadenumerosparesentre1y200();
 //                case 15:
@@ -258,6 +258,13 @@ public class EjerciciosGrupo6 {
             b = sn;
         }
     }
+    //--------------------------------------
+    //EJERCICIO 13: MAYOR Y MENOR DE 10 NUMEROS.
+    //--------------------------------------
+    public static void mayorymenorde10numeros(){
+        System.out.println("MAYOR Y MENOR DE 10 NUMEROS");
+    }
+    
  //aqui pueden igual seguir agregando las funciones
     
 } 
