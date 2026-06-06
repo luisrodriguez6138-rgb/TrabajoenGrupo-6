@@ -286,6 +286,9 @@ public class EjerciciosGrupo6 {
         for (int i = 1; i <= 15; i++) {
 
 }
+        System.out.print("Ingrese un numero: ");
+
+        int numero = sc.nextInt();
         
 
 }
