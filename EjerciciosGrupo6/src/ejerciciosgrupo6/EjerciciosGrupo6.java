@@ -254,6 +254,8 @@ public class EjerciciosGrupo6 {
         for(int i=1;i<=n;i++) {
             System.out.print(a + " ");
             sn = a + b;
+            a = b;
+            b = sn;
         }
     }
  //aqui pueden igual seguir agregando las funciones
