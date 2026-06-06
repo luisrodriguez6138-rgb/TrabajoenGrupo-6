@@ -47,8 +47,11 @@ public class EjerciciosGrupo6 {
                 notaCeroDiez();
                 break;
                 //ahi le siguen agregando los cases para los ejercicios que faltan
+            case 16:
+                System.out.println("Saliendo del sistema...");
+                break;
             default:
-                System.out.println("Ingrese una opcion valida");
+                System.out.println("Vuelva a ejecutar el programa e Ingrese una opcion valida del 1-16");
             
         }
     }
@@ -106,7 +109,7 @@ public class EjerciciosGrupo6 {
         }
     }
     
-
+    
     public static void notaCeroDiez(){
         
         int nota;
@@ -123,4 +126,5 @@ public class EjerciciosGrupo6 {
         
         System.out.println("Nota ingresada: " + nota);
     }
+ //aqui pueden igual seguir agregando las funciones  
 } 
