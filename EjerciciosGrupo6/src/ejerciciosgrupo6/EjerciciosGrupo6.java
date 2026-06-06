@@ -76,7 +76,7 @@ public class EjerciciosGrupo6 {
         String contraseñaCorrecta = "admin123";
         String contraseña;
         int intentos = 0;
-        
+        System.out.println("PROGRAMA QUE SOLICITA LA CONTRASEÑA DEL USUARIO.");
         do{
         
            System.out.println("Ingrese la contraseña: ");
@@ -102,7 +102,7 @@ public class EjerciciosGrupo6 {
         int cantidad = 0;
         int suma = 0;
         double promedio;
-        
+        System.out.println("PROGRAMA QUE FINALIZARA CUANDO SE INGRESE UN NUMERO NEGATIVO");
         do{
             
            System.out.println("Ingrese un numero positivo (negativo para terminar): ");
@@ -133,7 +133,7 @@ public class EjerciciosGrupo6 {
     public static void notaCeroDiez(){
         
         int nota;
-        
+        System.out.println("PROGRAMA QUE SOLICITA UNA NOTA ENTRE 0 Y 10."); 
         do{
         
            System.out.println("Ingrese una nota entre 0 y 10: ");
