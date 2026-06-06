@@ -90,7 +90,7 @@ public class EjerciciosGrupo6 {
             suma += numero;
             cantidad++;
         }
-        
+        promedio = (double) suma / cantidad;
     }
     public static void notaCeroDiez(){
         
