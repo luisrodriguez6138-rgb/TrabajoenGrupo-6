@@ -117,6 +117,8 @@ public class EjerciciosGrupo6 {
         System.out.println("Ingrese una nota entre 0 y 10: ");
         nota = sc.nextInt();
         
+        if(nota < 0 || nota > 10){
+            System.out.println("Nota invalida");
         }
         
     }
