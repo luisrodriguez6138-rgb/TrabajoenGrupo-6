@@ -283,6 +283,10 @@ public class EjerciciosGrupo6 {
         int positivos = 0;
         int negativos = 0;
         int ceros = 0;
+        for (int i = 1; i <= 15; i++) {
+
+}
+        
 
 }
     
