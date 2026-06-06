@@ -302,6 +302,11 @@ public class EjerciciosGrupo6 {
         System.out.print("Ingrese un numero entero: ");
         int numero = sc.nextInt();
         int divisores = 0;
+        for(int i=1; i<=numero; i++) {
+            if(numero % i == 0) {
+            divisores++;
+            }
+        }
     }
     
  //aqui pueden igual seguir agregando las funciones
