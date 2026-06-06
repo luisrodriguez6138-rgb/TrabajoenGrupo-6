@@ -51,10 +51,13 @@ public class EjerciciosGrupo6 {
                     cajeroautomatico();
                     break;
                 case 5:
+                    pareseimpares();
                     break;
                 case 6:
+                    ventasdiarias();
                     break;
                 case 7:
+                    
                     break;
 
                     //ahi le siguen agregando los cases para los ejercicios que faltan
