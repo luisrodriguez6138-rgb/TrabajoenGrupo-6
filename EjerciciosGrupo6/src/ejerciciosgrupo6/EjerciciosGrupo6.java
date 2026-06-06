@@ -280,6 +280,9 @@ public class EjerciciosGrupo6 {
     //EJERCICIO 10:Contador de positivos negativos y ceros
     //------------------------------------------------------------------
     public static void contadornumeros() {
+        int positivos = 0;
+        int negativos = 0;
+        int ceros = 0;
 
 }
     
