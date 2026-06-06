@@ -167,7 +167,10 @@ public class EjerciciosGrupo6 {
     //EJERCICIO 5: NUMEROS PARES E IMPARES.
     //----------------------------------------
     public static void pareseimpares(){
-        
+        int numero;
+        int pares = 0;
+        int impares = 0;
+
     }
  //aqui pueden igual seguir agregando las funciones  
 } 
