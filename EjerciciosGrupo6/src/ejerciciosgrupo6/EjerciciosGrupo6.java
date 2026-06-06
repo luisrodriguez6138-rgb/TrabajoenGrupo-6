@@ -172,6 +172,11 @@ public class EjerciciosGrupo6 {
         int impares = 0;
         System.out.println("PROGRAMA PARA INGRESAR NUMEROS ENTEROS E INDICAR CUANTOS SON NUMEROS PARES E IMPARES");
         System.out.print("Ingrese números enteros (0 para terminar): ");
+        do {
+            System.out.print("Numero: ");
+            numero = sc.nextInt();  
+        
+        } while (numero != 0);
 
 
     }
