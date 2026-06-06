@@ -148,6 +148,12 @@ public class EjerciciosGrupo6 {
             System.out.print("Ingrese su clave: ");
             intento = sc.next();
             intentos++;
+            if (intento.equals(claveCorrecta)) {
+                acceso = true;
+                break;
+            } else {
+                System.out.println("Clave incorrecta. Intentos restantes: " + (3 - intentos));
+            }
             
         }
         
