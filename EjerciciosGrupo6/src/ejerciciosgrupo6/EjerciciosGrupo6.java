@@ -269,7 +269,7 @@ public class EjerciciosGrupo6 {
         int mayor = num;
         int menor = num;
         for(int i = 2; i <= 10; i++) {
-            System.out.print("Ingrese el número " + i + ": ");
+            System.out.print("Ingrese el numero " + i + ": ");
             num = sc.nextInt();
             if(num > mayor) {
             mayor = num;
@@ -278,6 +278,8 @@ public class EjerciciosGrupo6 {
             menor = num;
             }
         }
+        System.out.println("El numero mayor: " + mayor);
+        System.out.println("El numero menor: " + menor);
         
         
     }
