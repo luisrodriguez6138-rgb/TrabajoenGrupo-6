@@ -247,13 +247,12 @@ public class EjerciciosGrupo6 {
     //------------------------------------------------------------------
     //EJERCICIO 8:Generador de Tabla de Multiplicar del 1 hasta el 20
     //------------------------------------------------------------------
-    
-public class App {
+    public static void tablamultiplicar() {
 
-    public static void main(String[] args) {
-
-    }
 }
+    
+    
+  
     public static void secuenciadefibonacci(){
         System.out.println("SECUENCIA DE FIBONACCI");
         System.out.print("Ingrese la cantidad de terminos: ");
