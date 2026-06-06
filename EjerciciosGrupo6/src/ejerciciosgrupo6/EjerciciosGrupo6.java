@@ -144,10 +144,13 @@ public class EjerciciosGrupo6 {
         String intento;
         int intentos = 0;
         boolean acceso = false;
+        while (intentos < 3) {
+            System.out.print("Ingrese su clave: ");
+            intento = sc.next();
+            intentos++;
+            
+        }
         
-        
-    
-
     }
  //aqui pueden igual seguir agregando las funciones  
 } 
