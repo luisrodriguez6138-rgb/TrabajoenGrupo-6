@@ -34,6 +34,23 @@ public class EjerciciosGrupo6 {
         System.out.println("Seleccione una opcion: ");
         int opc = sc.nextInt();
         
+        switch(opc){
+            
+            case 1:
+                sistemaLogin();
+                break;
+            case 2:
+                numerosPositivos();
+                break;
+            case 3:
+                notaCeroDiez();
+                break;
+                //ahi le siguen agregando los cases para los ejercicios que faltan
+            default:
+                System.out.println("Ingrese una opcion valida");
+            
+        }
+        
         
 
         
