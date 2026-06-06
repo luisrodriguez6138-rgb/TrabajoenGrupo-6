@@ -251,6 +251,9 @@ public class EjerciciosGrupo6 {
         System.out.println("TABLA DE MULTIPLICAR");
         System.out.print("Ingrese un numero entero positivo: ");
         int numero = sc.nextInt();
+        for (int i = 1; i <= 20; i++) {
+
+}
         
 
 }
