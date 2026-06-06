@@ -140,7 +140,11 @@ public class EjerciciosGrupo6 {
     //EJERCICIO 4: CAJERO AUTOMATICO.
     //----------------------------------------
     public static void cajeroautomatico(){
+        String claveCorrecta = "JESUS1727";
+        String intento;
         
+    
+
     }
  //aqui pueden igual seguir agregando las funciones  
 } 
