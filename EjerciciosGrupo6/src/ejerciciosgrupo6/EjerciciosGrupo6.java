@@ -62,6 +62,12 @@ public class EjerciciosGrupo6 {
         
         intentos ++;
         
+        if(contraseña.equals(contraseñaCorrecta)){
+            System.out.println("Acceso permitido");
+        }else{
+            System.out.println("Contraseña Incorrecta");
+        }
+        
     }
     public static void numerosPositivos(){
         
