@@ -183,8 +183,8 @@ public class EjerciciosGrupo6 {
                 }
             }
         } while (numero != 0);
-
-
+        System.out.println("Cantidad de numeros pares: " + pares);
+        System.out.println("Cantidad de numeros impares: " + impares);
     }
  //aqui pueden igual seguir agregando las funciones  
 } 
