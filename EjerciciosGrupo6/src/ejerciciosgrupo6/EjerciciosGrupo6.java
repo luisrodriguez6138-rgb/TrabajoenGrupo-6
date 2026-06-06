@@ -108,18 +108,19 @@ public class EjerciciosGrupo6 {
     
 
     public static void notaCeroDiez(){
+        
         int nota;
         
         do{
         
+           System.out.println("Ingrese una nota entre 0 y 10: ");
+           nota = sc.nextInt();
+        
+           if(nota < 0 || nota > 10){
+              System.out.println("Nota invalida");
+        }
         }while(nota < 0 || nota > 10);
         
-        System.out.println("Ingrese una nota entre 0 y 10: ");
-        nota = sc.nextInt();
-        
-        if(nota < 0 || nota > 10){
-            System.out.println("Nota invalida");
-        }
-        
+        System.out.println("Nota ingresada: " + nota);
     }
 } 
