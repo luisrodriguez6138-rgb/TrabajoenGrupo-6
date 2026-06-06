@@ -190,6 +190,10 @@ public class EjerciciosGrupo6 {
     //EJERCICIO 6: VENTAS DIARIAS DE UNA TIENDA.
     //-------------------------------------------
     public static void ventasdiarias(){
+        double venta;
+        double totalVentas = 0;
+        int cantidad = 0;
+
         
     }
  //aqui pueden igual seguir agregando las funciones  
