@@ -205,8 +205,8 @@ public class EjerciciosGrupo6 {
                 System.out.println("Valor invalido, ingrese un valor positivo o 0 para terminar.");
             }
         } while (venta != 0);
-
-
+        System.out.println("Cantidad de ventas registradas: " + cantidad);
+        System.out.printf("Total vendido: $%.2f%n", totalVentas);
     }
  //aqui pueden igual seguir agregando las funciones  
 } 
