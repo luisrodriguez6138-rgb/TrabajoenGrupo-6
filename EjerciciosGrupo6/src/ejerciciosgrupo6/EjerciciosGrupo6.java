@@ -254,12 +254,25 @@ public class EjerciciosGrupo6 {
         for (int i = 1; i <= 20; i++) {
 
 }
+        int i = 0;
         int resultado = numero * i;
         System.out.println(numero + " x " + i + " = " + resultado);
         System.out.println("Proceso finalizado");
-        
+}
+    
+    //------------------------------------------------------------------
+    //EJERCICIO 9:Factorial de un numero
+    //------------------------------------------------------------------
+    public static void factorialnumero() {
 
 }
+    
+    
+    
+    
+    
+    
+    
     
     
   
