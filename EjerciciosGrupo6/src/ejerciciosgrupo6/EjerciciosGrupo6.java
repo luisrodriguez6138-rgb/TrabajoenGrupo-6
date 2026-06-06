@@ -217,7 +217,12 @@ public class EjerciciosGrupo6 {
     public static void numeronegativo(){
         int numero;
         System.out.println("PROGRAMA QUE SOLICITA NUMEROS HASTA QUE SE INGRESE UNO NEGATIVO");
-        System.out.println("Ingrese los numeros que desee (Ingrese un negativo para terminar): ");
+        System.out.println("Ingrese los numeros que desee (Ingrese un negativo para terminar)");
+        do {
+            System.out.print("Numero: ");
+            numero = sc.nextInt();
+            
+        } while (numero >= 0);
 
         
     }
