@@ -215,6 +215,10 @@ public class EjerciciosGrupo6 {
     //EJERCICIO 7: SOLICITUD DE NUMEROS HASTA UN NEGATIVO.
     //-----------------------------------------------------
     public static void numeronegativo(){
+        int numero;
+        System.out.println("PROGRAMA QUE SOLICITA NUMEROS HASTA QUE SE INGRESE UNO NEGATIVO");
+        System.out.println("Ingrese los numeros que desee (Ingrese un negativo para terminar): ");
+
         
     }
  //aqui pueden igual seguir agregando las funciones  
