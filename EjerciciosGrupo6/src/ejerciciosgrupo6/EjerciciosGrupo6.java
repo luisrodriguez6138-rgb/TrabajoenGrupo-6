@@ -267,6 +267,8 @@ public class EjerciciosGrupo6 {
         System.out.print("Ingrese el numero 1: ");
         num = sc.nextInt();
         int mayor = num;
+        int menor = num;
+        
     }
     
  //aqui pueden igual seguir agregando las funciones
