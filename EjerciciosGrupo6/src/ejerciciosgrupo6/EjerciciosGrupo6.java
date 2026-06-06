@@ -63,7 +63,7 @@ public class EjerciciosGrupo6 {
                 default:
                     System.out.println("\nOpcion invalida. Intente de nuevo...");   
             }
-        }while (opc != 0);
+        }while (opc != 16);
     }
     public static void sistemaLogin(){
         String contraseñaCorrecta = "admin123";
@@ -135,6 +135,12 @@ public class EjerciciosGrupo6 {
         }while(nota < 0 || nota > 10);
         
         System.out.println("Nota ingresada: " + nota);
+    }
+    //----------------------------------------
+    //EJERCICIO 4: CAJERO AUTOMATICO.
+    //----------------------------------------
+    public static void cajeroautomatico(){
+        
     }
  //aqui pueden igual seguir agregando las funciones  
 } 
