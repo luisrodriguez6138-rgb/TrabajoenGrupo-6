@@ -63,8 +63,8 @@ public class EjerciciosGrupo6 {
                     secuenciadefibonacci();
                 case 13:
                     mayorymenorde10numeros();
-//                case 14:
-//                    sumadenumerosparesentre1y200();
+                case 14:
+                    sumadenumerosparesentre1y200();
 //                case 15:
 //                    numeroprimo();
                     //ahi le siguen agregando los cases para los ejercicios que faltan
@@ -279,9 +279,13 @@ public class EjerciciosGrupo6 {
             }
         }
         System.out.println("El numero mayor: " + mayor);
-        System.out.println("El numero menor: " + menor);
-        
-        
+        System.out.println("El numero menor: " + menor);    
+    }
+    //--------------------------------------
+    //EJERCICIO 14: SUMA DE NUMEROS PARES ENTRE 1 Y 200.
+    //--------------------------------------
+    public static void sumadenumerosparesentre1y200(){
+        System.out.println("SUMA DE NUMEROS PARES ENTRE 1 Y 200");
     }
     
  //aqui pueden igual seguir agregando las funciones
