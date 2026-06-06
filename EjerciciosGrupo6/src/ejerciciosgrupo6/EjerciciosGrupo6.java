@@ -251,6 +251,8 @@ public class EjerciciosGrupo6 {
         int b = 1;
         int sn;
         System.out.println("Serie Fibonacci: ");
+        for(int i=1;i<=n;i++) {
+        }
     }
  //aqui pueden igual seguir agregando las funciones
     
