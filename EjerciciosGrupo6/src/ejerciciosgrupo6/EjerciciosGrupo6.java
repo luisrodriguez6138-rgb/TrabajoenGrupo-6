@@ -286,6 +286,7 @@ public class EjerciciosGrupo6 {
     //--------------------------------------
     public static void sumadenumerosparesentre1y200(){
         System.out.println("SUMA DE NUMEROS PARES ENTRE 1 Y 200");
+        int suma = 0;
     }
     
  //aqui pueden igual seguir agregando las funciones
