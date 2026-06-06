@@ -307,6 +307,11 @@ public class EjerciciosGrupo6 {
             divisores++;
             }
         }
+        if(divisores == 2) {
+            System.out.println("numero primo");
+        } else {
+            System.out.println("numero no primo");
+        }
     }
     
  //aqui pueden igual seguir agregando las funciones
