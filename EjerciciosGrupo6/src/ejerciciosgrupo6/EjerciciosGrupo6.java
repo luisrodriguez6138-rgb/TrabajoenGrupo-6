@@ -52,6 +52,10 @@ public class EjerciciosGrupo6 {
         }
     }
     public static void sistemaLogin(){
+        string contraseñaCorrecta = "admin123";
+        string contraseña;
+        int intentos = 0;
+        
         
     }
     public static void numerosPositivos(){
