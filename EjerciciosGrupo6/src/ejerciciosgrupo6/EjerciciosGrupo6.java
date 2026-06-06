@@ -245,6 +245,8 @@ public class EjerciciosGrupo6 {
     //--------------------------------------
     public static void secuenciadefibonacci(){
         System.out.println("SECUENCIA DE FIBONACCI");
+        System.out.print("Ingrese la cantidad de terminos: ");
+        int n = sc.nextInt();
     }
  //aqui pueden igual seguir agregando las funciones
     
