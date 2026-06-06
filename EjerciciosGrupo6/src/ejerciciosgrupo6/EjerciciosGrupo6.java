@@ -57,7 +57,7 @@ public class EjerciciosGrupo6 {
                     ventasdiarias();
                     break;
                 case 7:
-                    
+                    numeronegativo();
                     break;
 
                     //ahi le siguen agregando los cases para los ejercicios que faltan
@@ -210,6 +210,12 @@ public class EjerciciosGrupo6 {
         } while (venta != 0);
         System.out.println("Cantidad de ventas registradas: " + cantidad);
         System.out.printf("Total vendido: $%.2f%n", totalVentas);
+    }
+    //-----------------------------------------------------
+    //EJERCICIO 7: SOLICITUD DE NUMEROS HASTA UN NEGATIVO.
+    //-----------------------------------------------------
+    public static void numeronegativo(){
+        
     }
  //aqui pueden igual seguir agregando las funciones  
 } 
