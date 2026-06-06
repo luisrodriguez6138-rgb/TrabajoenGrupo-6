@@ -61,12 +61,12 @@ public class EjerciciosGrupo6 {
                     break;
                 case 12:
                     secuenciadefibonacci();
-                case 13:
-                    mayorymenorde10numeros();
-                case 14:
-                    sumadenumerosparesentre1y200();
-                case 15:
-                    numeroprimo();
+//                case 13:
+//                    mayorymenorde10numeros();
+//                case 14:
+//                    sumadenumerosparesentre1y200();
+//                case 15:
+//                    numeroprimo();
                     //ahi le siguen agregando los cases para los ejercicios que faltan
                 case 16:
                     System.out.println("Saliendo del sistema...");
@@ -240,5 +240,12 @@ public class EjerciciosGrupo6 {
         } while (numero >= 0);
         System.out.println("Se ingreso un numero negativo. PROGRAMA TERMINADO.");
     }
- //aqui pueden igual seguir agregando las funciones  
+    //--------------------------------------
+    //EJERCICIO 12: SECUENCIA DE FIBONACCI.
+    //--------------------------------------
+    public static void secuenciadefibonacci(){
+        System.out.println("SECUENCIA DE FIBONACCI");
+    }
+ //aqui pueden igual seguir agregando las funciones
+    
 } 
