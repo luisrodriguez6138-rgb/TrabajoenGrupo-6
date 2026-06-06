@@ -57,23 +57,27 @@ public class EjerciciosGrupo6 {
         String contraseña;
         int intentos = 0;
         
-        System.out.println("Ingrese la contraseña: ");
-        contraseña = sc.next();
+        do{
         
-        intentos ++;
+           System.out.println("Ingrese la contraseña: ");
+           contraseña = sc.next();
         
-        if(contraseña.equals(contraseñaCorrecta)){
+           intentos ++;
+        
+           if(!contraseña.equals(contraseñaCorrecta)){
+            System.out.println("contraseña incorrecta");
+           }
+        
+        }while(!contraseña.equals(contraseñaCorrecta));
+        
             System.out.println("Acceso permitido");
-        }else{
-            System.out.println("Contraseña Incorrecta");
             System.out.println("Intentos realizados " + intentos);
         }
-        
-    }
+       
     public static void numerosPositivos(){
         
     }
     public static void notaCeroDiez(){
         
     }
-}
+} 
