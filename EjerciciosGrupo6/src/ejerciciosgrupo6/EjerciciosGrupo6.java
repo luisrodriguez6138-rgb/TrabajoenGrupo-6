@@ -323,6 +323,7 @@ public class EjerciciosGrupo6 {
         System.out.print("Ingrese calificacion: ");
 
         double nota = sc.nextDouble();
+        suma = suma + nota;
 
 }
     
