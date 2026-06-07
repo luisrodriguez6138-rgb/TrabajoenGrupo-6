@@ -58,7 +58,18 @@ public class EjerciciosGrupo6 {
                     break;
                 case 7:
                     numeronegativo();
-                    //aqui le sigues agregando los cases que faltan Adrian
+                    break;
+                case 8:
+                    tablamultiplicar();
+                    break;
+                case 9:
+                    factorialnumero();
+                    break;
+                case 10:
+                    contadornumeros();
+                    break;
+                case 11:
+                    promedioCurso();
                     break;
                 case 12:
                     secuenciadefibonacci();
@@ -310,8 +321,7 @@ public class EjerciciosGrupo6 {
         
 
 }
-    
-    
+   
  //------------------------------------------------------------------
  //EJERCICIO 11:Promedio general del curso
  //------------------------------------------------------------------
