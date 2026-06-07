@@ -264,6 +264,10 @@ public class EjerciciosGrupo6 {
         int numero = sc.nextInt();
         for (int i = 1; i <= 20; i++) {
 
+    int resultado = numero * i;
+
+    System.out.println(numero + " x " + i + " = " + resultado);
+
 }
         int i = 0;
         int resultado = numero * i;
