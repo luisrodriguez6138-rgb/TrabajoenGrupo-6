@@ -317,6 +317,10 @@ public class EjerciciosGrupo6 {
  //------------------------------------------------------------------
     public static void promedioCurso() {
         double suma = 0;
+        for (int i = 1; i <= 20; i++) {
+
+}
+        
 
 }
     
