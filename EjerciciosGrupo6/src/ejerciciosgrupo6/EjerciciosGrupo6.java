@@ -279,16 +279,21 @@ public class EjerciciosGrupo6 {
     //EJERCICIO 9:Factorial de un numero
     //------------------------------------------------------------------
     public static void factorialnumero() {
-        System.out.println("FACTORIAL DE UN NUMERO");
-        System.out.print("Ingrese un numero: ");
-        int numero = sc.nextInt();
-        int factorial = 1;
-        for (int i = 1; i <= numero; i++) {
+    System.out.println("FACTORIAL DE UN NUMERO");
 
-}
-        int i = 0;
+    System.out.print("Ingrese un numero: ");
+
+    int numero = sc.nextInt();
+
+    int factorial = 1;
+
+    for (int i = 1; i <= numero; i++) {
+
         factorial = factorial * i;
-        System.out.println("El factorial es: " + factorial);
+
+    }
+
+    System.out.println("El factorial es: " + factorial);
 
 }
     //------------------------------------------------------------------
