@@ -305,7 +305,6 @@ public class EjerciciosGrupo6 {
         int ceros = 0;
         for (int i = 1; i <= 15; i++) {
 
-}
         System.out.print("Ingrese un numero: ");
 
         int numero = sc.nextInt();
@@ -330,28 +329,33 @@ public class EjerciciosGrupo6 {
         
 
 }
-   
- //------------------------------------------------------------------
- //EJERCICIO 11:Promedio general del curso
- //------------------------------------------------------------------
-    public static void promedioCurso() {
-        double suma = 0;
-        for (int i = 1; i <= 20; i++) {
-
 }
+ 
+    //---------------------------------------------------
+    //EJERCICIO 11: Promedio de curso de 20 estudiantes
+    //----------------------------------------------------
+public static void promedioCurso() {
+
+    double suma = 0;
+
+    for (int i = 1; i <= 20; i++) {
+
         System.out.print("Ingrese calificacion: ");
 
         double nota = sc.nextDouble();
+
         suma = suma + nota;
-        double promedio = suma / 20;
-        System.out.println("Promedio general: " + promedio);
+
+    }
+
+    double promedio = suma / 20;
+
+    System.out.println("Promedio general: " + promedio);
 
 }
- //------------------------------------------------------------------
+//------------------------------------------------------------------
  //EJERCICIO 12:Secuencia de fibonacci
  //------------------------------------------------------------------
-    
-  
     public static void secuenciadefibonacci(){
         System.out.println("SECUENCIA DE FIBONACCI");
         System.out.print("Ingrese la cantidad de terminos: ");
