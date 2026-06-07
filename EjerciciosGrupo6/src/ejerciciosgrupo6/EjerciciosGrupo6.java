@@ -328,10 +328,9 @@ public class EjerciciosGrupo6 {
         System.out.println("Promedio general: " + promedio);
 
 }
-    
-    
-    
-    
+ //------------------------------------------------------------------
+ //EJERCICIO 12:Secuencia de fibonacci
+ //------------------------------------------------------------------
     
   
     public static void secuenciadefibonacci(){
