@@ -325,6 +325,7 @@ public class EjerciciosGrupo6 {
         double nota = sc.nextDouble();
         suma = suma + nota;
         double promedio = suma / 20;
+        System.out.println("Promedio general: " + promedio);
 
 }
     
