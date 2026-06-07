@@ -312,8 +312,12 @@ public class EjerciciosGrupo6 {
 }
     
     
-    
-    
+ //------------------------------------------------------------------
+ //EJERCICIO 11:Promedio general del curso
+ //------------------------------------------------------------------
+    public static void promedioCurso() {
+
+}
     
     
     
