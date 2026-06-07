@@ -324,6 +324,7 @@ public class EjerciciosGrupo6 {
 
         double nota = sc.nextDouble();
         suma = suma + nota;
+        double promedio = suma / 20;
 
 }
     
