@@ -7,6 +7,11 @@ package ejerciciosgrupo6;
 import java.util.Scanner;
 
 public class EjerciciosGrupo6 {
+    //INTEGRANTES
+    //Luis Rodríguez
+    //Adrián Santafe
+    //Jesús Meneces
+    //Carlos Quinga
     
     static Scanner sc = new Scanner(System.in);
     
