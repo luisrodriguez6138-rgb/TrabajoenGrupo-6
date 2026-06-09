@@ -427,6 +427,7 @@ public static void promedioCurso() {
         }
         if(divisores == 2) {
             System.out.println("numero primo");
+            System.out.println("AQUI ESTUVO AGRAHAN DEL GRUPO 7");
         } else {
             System.out.println("numero no primo");
         }
